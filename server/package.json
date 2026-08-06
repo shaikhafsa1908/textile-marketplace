@@ -1,18 +1,24 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI Textile Marketplace Backend",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "groq",
+    "textile",
+    "ai"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.6",
+    "cors": "^2.8.5",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "openai": "^7.4.0"
+    "express": "^5.1.0",
+    "groq-sdk": "^0.30.0"
   }
 }

@@ -36,6 +36,18 @@ const SEED_PRODUCTS = [
   { id: "p12", name: "Linen-Cotton Blend Voile", supplierId: "sup-1", category: "Blends", material: "55% Linen 45% Cotton", color: "Blush", gsm: 105, price: 5.9, moq: 150, stock: 1320, swatch: "#E9D7CF", description: "Airy voile blending linen's texture with cotton's softness, semi-sheer for warm-weather garments and layering.", care: "Machine wash cold, tumble dry low." },
   { id: "p13", name: "Wool-Silk Suiting Blend", supplierId: "sup-4", category: "Blends", material: "70% Wool 30% Silk", color: "Rust", gsm: 240, price: 24.5, moq: 25, stock: 150, swatch: "#8C4A34", description: "Fine worsted wool blended with silk for added luster and drape, a premium suiting cloth with subtle sheen.", care: "Dry clean only." },
   { id: "p14", name: "Egyptian Cotton Sateen", supplierId: "sup-1", category: "Cotton", material: "100% Egyptian Cotton", color: "Ivory", gsm: 145, price: 7.3, moq: 100, stock: 1780, swatch: "#F0E9DC", description: "Long-staple Egyptian cotton woven in a sateen weave for a subtle sheen and silky hand. Popular for premium shirting and bedding.", care: "Machine wash cold, tumble dry low, warm iron." },
+  { id: "p15", name: "Brushed Cotton Twill", supplierId: "sup-1", category: "Cotton", material: "100% Brushed Cotton", color: "Slate", gsm: 210, price: 5.4, moq: 150, stock: 2050, swatch: "#8E97A2", description: "Napped cotton twill with a soft, warm hand from brushing on both faces. Reliable for workwear and casual trousers.", care: "Machine wash cold, tumble dry low." },
+  { id: "p16", name: "Jersey Interlock Cotton", supplierId: "sup-1", category: "Cotton", material: "95% Cotton 5% Elastane", color: "Charcoal", gsm: 180, price: 4.6, moq: 200, stock: 2600, swatch: "#3A3733", description: "Smooth interlock knit with light stretch recovery, milled for t-shirts and loungewear. Doesn't curl at cut edges.", care: "Machine wash cold, tumble dry low." },
+  { id: "p17", name: "Silk-Cotton Voile", supplierId: "sup-2", category: "Silk", material: "60% Silk 40% Cotton", color: "Natural", gsm: 65, price: 16.8, moq: 40, stock: 380, swatch: "#E7DFC9", description: "Featherweight voile blending silk's luster with cotton's crispness. Semi-sheer, ideal for layered summer garments.", care: "Hand wash cold or dry clean." },
+  { id: "p18", name: "Silk Georgette", supplierId: "sup-2", category: "Silk", material: "100% Silk Georgette", color: "Charcoal", gsm: 45, price: 19.5, moq: 40, stock: 290, swatch: "#413E3C", description: "Crinkled, matte-finish silk with a soft drape and slight opacity. A staple for eveningwear and flowing silhouettes.", care: "Dry clean only." },
+  { id: "p19", name: "Stretch Selvedge Denim 11oz", supplierId: "sup-3", category: "Denim", material: "97% Cotton 3% Elastane", color: "Indigo", gsm: 320, price: 7.9, moq: 150, stock: 1400, swatch: "#2E3F5C", description: "Selvedge-loomed denim with just enough stretch for tailored fits while keeping an authentic woven texture.", care: "Wash inside-out cold, hang dry." },
+  { id: "p20", name: "Acid Wash Denim", supplierId: "sup-3", category: "Denim", material: "100% Cotton Denim", color: "Slate", gsm: 300, price: 6.5, moq: 120, stock: 860, swatch: "#7C8494", description: "Pre-washed denim with a mottled, high-contrast finish achieved through a low-impact acid wash process.", care: "Machine wash cold, separately, tumble dry low." },
+  { id: "p21", name: "Cashmere-Wool Suiting", supplierId: "sup-4", category: "Wool", material: "85% Wool 15% Cashmere", color: "Charcoal", gsm: 280, price: 29.5, moq: 20, stock: 110, swatch: "#37342F", description: "Luxurious worsted suiting cloth softened with cashmere fiber, milled for a refined drape and exceptional handle.", care: "Dry clean only." },
+  { id: "p22", name: "Melton Wool Coating", supplierId: "sup-4", category: "Wool", material: "90% Wool 10% Nylon", color: "Rust", gsm: 410, price: 21.4, moq: 20, stock: 95, swatch: "#7A3F2C", description: "Dense, felted melton with a smooth face and excellent wind resistance, built for structured outerwear.", care: "Dry clean only." },
+  { id: "p23", name: "Recycled Polyester Taffeta", supplierId: "sup-5", category: "Synthetic", material: "100% Recycled Polyester", color: "Slate", gsm: 55, price: 2.6, moq: 400, stock: 6100, swatch: "#9AA3AD", description: "Crisp, lightweight taffeta with a subtle sheen, woven from recycled PET. Common for linings and packable outerwear.", care: "Machine wash cold, hang dry." },
+  { id: "p24", name: "Waterproof Softshell", supplierId: "sup-5", category: "Synthetic", material: "92% Polyester 8% Spandex", color: "Charcoal", gsm: 280, price: 6.9, moq: 200, stock: 1850, swatch: "#2B2E33", description: "Bonded three-layer softshell with a DWR face and fleece backing, engineered for weatherproof outerwear.", care: "Machine wash cold, do not tumble dry." },
+  { id: "p25", name: "Linen Canvas", supplierId: "sup-1", category: "Linen", material: "100% Linen", color: "Olive", gsm: 260, price: 11.2, moq: 60, stock: 420, swatch: "#6B6E4E", description: "Heavyweight linen canvas with a substantial hand, suited to structured bags, upholstery, and workwear.", care: "Machine wash cold, line dry." },
+  { id: "p26", name: "Bamboo-Cotton Jersey", supplierId: "sup-1", category: "Blends", material: "60% Bamboo Viscose 40% Cotton", color: "Blush", gsm: 165, price: 6.3, moq: 120, stock: 1550, swatch: "#EFDCD6", description: "Soft, breathable jersey blending bamboo viscose's silkiness with cotton's durability. Popular for basics and baby wear.", care: "Machine wash cold, tumble dry low." },
 ];
  
 const TESTIMONIALS = [
@@ -346,53 +358,68 @@ export default function TextileMarketplace() {
     showToast("Review posted");
   }
  
+ /* ---------------- AI assistant ---------------- */
+async function sendChat(customText) {
+  const text = (customText ?? chatInput).trim();
  
-  /* ---------------- AI assistant ---------------- */
-  async function sendChat(customText) {
-    const text = (customText ?? chatInput).trim();
-    if (!text || chatLoading) return;
-    const userMsg = { role: "user", text, productIds: [] };
-    setChatMsgs((m) => [...m, userMsg]);
-    setChatInput("");
-    setChatLoading(true);
-    try {
-      const catalogSummary = products.map((p) => `${p.id} | ${p.name} | ${p.category} | ${p.material} | color:${p.color} | $${p.price}/m | GSM:${p.gsm} | supplier:${supplierById(p.supplierId)?.company}`).join("\n");
-      const cartSummary = cartLines.map((c) => `${c.product.name} x${c.qty}`).join(", ") || "empty";
-      const system = `You are Warp, a knowledgeable and friendly textile expert embedded in a B2B fabric marketplace. You help buyers pick, compare, and understand fabrics from the live catalog below. Be concise, concrete, and specific — reference real product names, GSM, price per meter, and materials from the catalog when relevant. If asked to compare fabrics, give a short structured comparison. If asked for care instructions, give practical washing/handling guidance appropriate to the fiber. If the buyer describes a use case, recommend 1-3 specific matching products by name from the catalog. Never invent products that aren't in the catalog.
+  if (!text || chatLoading) return;
  
-CATALOG:
-${catalogSummary}
+  // Show user's message
+  setChatMsgs((m) => [
+    ...m,
+    {
+      role: "user",
+      text,
+      productIds: [],
+    },
+  ]);
  
-Buyer's current cart: ${cartSummary}
+  setChatInput("");
+  setChatLoading(true);
  
-Respond ONLY with a raw JSON object (no markdown fences, no preamble) in exactly this shape:
-{"reply": "your conversational answer as plain text, 2-5 sentences", "recommended_product_ids": ["p1","p2"]}
-Only include product ids if you are actually recommending or comparing specific catalog items; otherwise use an empty array.`;
-   const response = await fetch("http://localhost:3001/chat", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify({
-    message: chatInput,
-  }),
-});
-
-const data = await response.json();
-
-setChatMsgs((m) => [
-  ...m,
-  {
-    role: "assistant",
-    text: data.reply,
-    productIds: [],
-  },
-]);
-    } catch (e) {
-      setChatMsgs((m) => [...m, { role: "assistant", text: "I'm having trouble connecting right now. Please try again in a moment.", productIds: [] }]);
-    } finally { setChatLoading(false); }
+  try {
+    const response = await fetch("http://localhost:3001/chat", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        message: text,
+      }),
+    });
+ 
+    const result = await response.json();
+ 
+    console.log("Backend Response:", result);
+ 
+    if (!response.ok) {
+      throw new Error(result.error || "Server Error");
+    }
+ 
+    setChatMsgs((m) => [
+      ...m,
+      {
+        role: "assistant",
+        text: result.reply,
+        productIds: result.recommended_product_ids || [],
+      },
+    ]);
+ 
+  } catch (e) {
+    console.error(e);
+ 
+    setChatMsgs((m) => [
+      ...m,
+      {
+        role: "assistant",
+        text: "I'm having trouble connecting right now. Please try again.",
+        productIds: [],
+      },
+    ]);
+  } finally {
+    setChatLoading(false);
   }
- 
+}
   /* =======================================================================
      SHARED PIECES  (called as plain functions — never as <Tag/> — so inputs
      never lose focus and internal hooks are never conditionally invoked)
@@ -400,20 +427,26 @@ setChatMsgs((m) => [
  
   function Swatch(color, extra, image) {
     if (image) {
+      // Fills whatever box it's placed in (width/height: 100%) so the SAME
+      // component works correctly at every size it's used at — 152px cards,
+      // 400px product-detail hero, 56px cart thumbnails, etc. — without
+      // ever hardcoding a size here. object-fit: cover keeps the photo
+      // undistorted no matter its original aspect ratio.
       return (
-        <div style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden", ...extra }}>
-          <img src={image} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", clipPath: "polygon(0% 3%, 4% 0%, 96% 2%, 100% 6%, 98% 96%, 94% 100%, 3% 98%, 0% 94%)" }} />
+        <div style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden", borderRadius: 6, ...extra }}>
+          <img
+            src={image}
+            alt=""
+            style={{ display: "block", width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+          />
         </div>
       );
     }
     return (
-      <div style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden", ...extra }}>
-        <div style={{
-          position: "absolute", inset: 0, background: color,
-          clipPath: "polygon(0% 3%, 4% 0%, 96% 2%, 100% 6%, 98% 96%, 94% 100%, 3% 98%, 0% 94%)",
-        }} />
-        <div style={{ position: "absolute", inset: 0, opacity: 0.14, clipPath: "polygon(0% 3%, 4% 0%, 96% 2%, 100% 6%, 98% 96%, 94% 100%, 3% 98%, 0% 94%)", backgroundImage: "repeating-linear-gradient(90deg, rgba(0,0,0,0.55) 0px, transparent 1px, transparent 3px)" }} />
-        <div style={{ position: "absolute", inset: 0, opacity: 0.10, clipPath: "polygon(0% 3%, 4% 0%, 96% 2%, 100% 6%, 98% 96%, 94% 100%, 3% 98%, 0% 94%)", backgroundImage: "repeating-linear-gradient(0deg, rgba(255,255,255,0.5) 0px, transparent 1px, transparent 3px)" }} />
+      <div style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden", borderRadius: 6, ...extra }}>
+        <div style={{ position: "absolute", inset: 0, background: color }} />
+        <div style={{ position: "absolute", inset: 0, opacity: 0.14, backgroundImage: "repeating-linear-gradient(90deg, rgba(0,0,0,0.55) 0px, transparent 1px, transparent 3px)" }} />
+        <div style={{ position: "absolute", inset: 0, opacity: 0.10, backgroundImage: "repeating-linear-gradient(0deg, rgba(255,255,255,0.5) 0px, transparent 1px, transparent 3px)" }} />
       </div>
     );
   }
@@ -464,7 +497,7 @@ setChatMsgs((m) => [
     const outOfStock = p.inStock === false;
     return (
       <div className="wf-card wf-lift" style={{ background: T.card, borderColor: T.border, display: "flex", flexDirection: "column", overflow: "hidden" }}>
-        <div style={{ height: 152, position: "relative", cursor: "pointer" }} onClick={() => openProduct(p.id)}>
+        <div style={{ width: "100%", height: 152, position: "relative", cursor: "pointer" }} onClick={() => openProduct(p.id)}>
           {Swatch(p.swatch, null, p.image)}
           <button onClick={(e) => { e.stopPropagation(); toggleWishlist(p.id); }}
             style={{ position: "absolute", top: 10, right: 10, background: "rgba(255,255,255,0.92)", borderRadius: 999, padding: 7, border: "none", cursor: "pointer", display: "flex", boxShadow: "0 2px 6px rgba(0,0,0,0.15)" }}>
@@ -886,7 +919,7 @@ setChatMsgs((m) => [
           <div style={{ display: "grid", gap: 16, gridTemplateColumns: `repeat(${items.length}, minmax(0,1fr))` }}>
             {items.map((p) => (
               <div key={p.id} className="wf-card" style={{ borderColor: T.border, padding: 14 }}>
-                <div style={{ height: 96, marginBottom: 12, borderRadius: 8, overflow: "hidden" }}>{Swatch(p.swatch, null, p.image)}</div>
+                <div style={{ width: "100%", height: 96, marginBottom: 12, borderRadius: 8, overflow: "hidden" }}>{Swatch(p.swatch, null, p.image)}</div>
                 <div style={{ fontWeight: 700, fontSize: 13, color: T.text }}>{p.name}</div>
                 <div style={{ fontSize: 12, marginTop: 10, display: "flex", flexDirection: "column", gap: 5, color: T.textMute }}>
                   <div><b style={{ color: T.text }}>Material:</b> {p.material}</div>
@@ -921,7 +954,7 @@ setChatMsgs((m) => [
       <div style={{ maxWidth: 1080, margin: "0 auto", padding: "40px 20px" }}>
         <button onClick={() => goto("marketplace")} className="wf-row" style={{ gap: 4, background: "none", border: "none", cursor: "pointer", fontSize: 13.5, marginBottom: 22, color: T.textMute }}><ChevronLeft size={15} /> Back to marketplace</button>
         <div className="wf-product-grid">
-          <div style={{ height: 400, borderRadius: 18, overflow: "hidden" }}>{Swatch(p.swatch, null, p.image)}</div>
+          <div style={{ width: "100%", height: 400, borderRadius: 18, overflow: "hidden" }}>{Swatch(p.swatch, null, p.image)}</div>
           <div>
             <span style={{ fontSize: 11.5, fontWeight: 700, letterSpacing: 0.5, textTransform: "uppercase", color: T.rust }}>{p.category}</span>
             <h1 className="wf-display" style={{ fontSize: 30, margin: "6px 0 8px", color: T.text }}>{p.name}</h1>
@@ -1576,3 +1609,7 @@ setChatMsgs((m) => [
   );
 }
  
+ 
+
+
+
