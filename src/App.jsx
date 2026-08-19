@@ -378,7 +378,8 @@ async function sendChat(customText) {
   setChatLoading(true);
  
   try {
-const API_URL = "http://localhost:3001";
+const API_URL =
+  import.meta.env.VITE_API_URL || "https://textile-marketplace-1.onrender.com";
   const response = await fetch(`${API_URL}/chat`, {
       method: "POST",
       headers: {
